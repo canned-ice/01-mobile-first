@@ -1,0 +1,59 @@
+main {
+    margin: 0 1em;
+}
+
+body>header {
+    background-color: rgb(255,234,171);
+}
+
+h1 {
+    margin: 0 0;
+}
+
+.heading-group-h1 {
+    padding: 1em;
+}
+
+nav>ul>li>a {
+    color: #777;
+    text-decoration: none;
+}
+
+nav>ul {
+    list-style: none;
+}
+
+.by-line {
+    color: #777;
+}
+
+address>a {
+    color: #777;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 640px){
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: .3em;
+        right: .2em;
+    }
+    .hamburger-icon:hover nav>ul {
+        display: block;
+    }
+
+    nav>ul {
+        display: none;
+    }
+}
+
+.bob {
+    padding-bottom: .75em;
+}

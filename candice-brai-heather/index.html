@@ -6,13 +6,13 @@
   <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-  <link rel="stylesheet" type="style" href="vendor/styles/normalize.css">
+  <link rel="stylesheet" href="vendor/styles/normalize.css">
   <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
   <link rel="stylesheet" href="vendor/styles/icons.css">
   <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-  <link rel="stylesheet" type="style" href="vendor/styles/base.css">
-  <link rel="stylesheet" type="style" href="vendor/styles/layout.css">
-  <link rel="stylesheet" type="style" href="vendor/styles/modules.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/modules.css">
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- We set them up in order of specificity - general base style first and then more specific styles loaded after -->
   <!-- REVIEW: This is the favicon -->
@@ -32,15 +32,16 @@
     </section>
     <nav>
       <!-- TODO: Add a hamburger menu icon here, which will show/hide depending on screen width (desktop vs. mobile). -->
-     <div class="hamburger-icon"></div>
-     <div class="hamburger-icon"></div>
-     <div class="hamburger-icon"></div>
-
+      <button class="hamburger">
+        <div class="hamburger-icon"></div>
+        <div class="hamburger-icon"></div>
+        <div class="hamburger-icon"></div>
+      </button>
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
-        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+        <li class="tab"><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+        <li class="tab"><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
       </ul>
     </nav>
   </header>
@@ -48,9 +49,9 @@
     <section id="articles" class="tab-content">
       <article class="clearfix" data-category="bob-ross">
           <header>
-            <h1>Bob Ross Ipsum</h1>
+            <h1 class="bob">Bob Ross Ipsum</h1>
             <!-- REVIEW: Look closely at the HTML structure of this "byline" div, as it will affect how you choose to target these elements in CSS. -->
-            <div>
+            <div class="by-line">
               By <address><a href="https://en.wikipedia.org/wiki/Bob_Ross">Bob Ross</a></address>
               published <time datetime="2015-11-05" title="2015-11-05">about 718 days ago</time>
             </div>
