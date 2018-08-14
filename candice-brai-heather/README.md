@@ -20,13 +20,28 @@ Ensure that images are responsive and do not exceed the size of the viewport.
 
 ## Getting Started
 
-Fork repo from github and then clone to their machine. 
+Fork repo from github and then clone to their machine.
 
 ## Architecture
 
 html, css, font icons.
 
 ## Change Log
+
+Author: Heather Palmerg <palmerheather78@gmail.com>
+Date:   Tue Aug 14 13:42:44 2018 -0700
+
+    Add hamburger menu and responsiveness
+
+Author: Heather Palmergit <palmerheather78@gmail.com>
+Date:   Tue Aug 14 12:49:23 2018 -0700
+
+    Start styles for responsive web design
+
+Author: Ashabrai Frauen <ashabraifrauen@yahoo.com>
+Date:   Tue Aug 14 11:04:26 2018 -0700
+
+    added readme file
 
 Author: Ashabrai Frauen <ashabraifrauen@yahoo.com>
 Date:   Tue Aug 14 10:54:43 2018 -0700
@@ -37,9 +52,7 @@ Author: canned-ice <torenesk@gmail.com>
 Date:   Tue Aug 14 10:19:51 2018 -0700
 
     completed all TO-DO in header
-    
-    Completed all To-Dos within the comments of the index.html file with our collaboration partners
-
+    completed all To-Dos within the comments of the index.html file with our collaboration partners
 
 ## Credits and Collaborations
 
