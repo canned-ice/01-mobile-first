@@ -68,9 +68,12 @@
 .icon-github:before {
 	content: "\e907";
 }
-.hamburger-icon{
+/* .hamburger-icon{
 	width: 35px;
 	height: 5px;
 	background-color: black;
 	margin: 6px 0;
+} */
+.icon-hamburger:before {
+	content: "\e902";
 }
