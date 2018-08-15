@@ -76,4 +76,5 @@
 } */
 .icon-hamburger:before {
 	content: "\e902";
+	color: black;
 }
